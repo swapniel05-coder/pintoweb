@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JP Chit Fund — Trusted Chit Funds in Malleshwaram, Bengaluru</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="antialiased selection:bg-[#0F3D34] selection:text-white">
+
+  <!-- Top Info Bar -->
+  <div class="bg-[#092620] text-[#E6F0EC] text-xs py-2 px-4">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-4">
+        <span>Basappa Garden, Malleshwaram, Bengaluru 560003</span>
+        <span class="hidden sm:inline text-[#C69749]">•</span>
+        <span class="hidden sm:inline">Open Mon–Sun: 9:00 AM – 10:00 PM</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="inline-flex items-center gap-1 font-semibold text-[#E7C27D]">★ 5.0 Rated (130+ Reviews)</span>
+        <a href="tel:+919353781216" class="font-semibold hover:text-white transition">+91 93537 81216</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Navigation -->
+  <header class="sticky top-0 z-40 glass-nav border-b border-[#E5DFD3]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-[#0F3D34] text-[#E7C27D] flex items-center justify-center font-serif-display font-bold text-lg shadow-sm">
+          JP
+        </div>
+        <div>
+          <div class="font-serif-display font-bold text-lg leading-tight text-[#17201E]">JP Chit Fund</div>
+          <div class="text-[11px] uppercase tracking-wider text-[#4A5754] font-semibold">Malleshwaram • Bengaluru</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-[#4A5754]">
+        <a href="#about" class="hover:text-[#0F3D34] transition">About</a>
+        <a href="#schemes" class="hover:text-[#0F3D34] transition">Chit Schemes</a>
+        <a href="#calculator" class="hover:text-[#0F3D34] transition">Calculator</a>
+        <a href="#how-it-works" class="hover:text-[#0F3D34] transition">How It Works</a>
+        <a href="#faq" class="hover:text-[#0F3D34] transition">FAQ</a>
+        <a href="#contact" class="px-4 py-2 rounded-xl bg-[#0F3D34] text-white font-semibold hover:bg-[#165246] transition">
+          Enquire Now
+        </a>
+      </nav>
+
+      <button id="mobile-menu-btn" type="button" aria-label="Toggle Menu"
+        class="md:hidden p-2 rounded-lg border border-[#E5DFD3] text-[#17201E] bg-white cursor-pointer">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#FAF8F4] border-b border-[#E5DFD3] px-4 py-4 space-y-3 text-sm font-medium">
+      <a href="#about" class="block py-1.5 text-[#17201E]">About</a>
+      <a href="#schemes" class="block py-1.5 text-[#17201E]">Chit Schemes</a>
+      <a href="#calculator" class="block py-1.5 text-[#17201E]">Calculator</a>
+      <a href="#how-it-works" class="block py-1.5 text-[#17201E]">How It Works</a>
+      <a href="#faq" class="block py-1.5 text-[#17201E]">FAQ</a>
+      <a href="#contact" class="block text-center py-2.5 rounded-xl bg-[#0F3D34] text-white font-semibold">Enquire Now</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden pt-10 pb-16 lg:pt-16 lg:pb-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#F8F0E0] border border-[#E7D4AE] text-[#A87C32] text-xs font-semibold">
+            <span>★ 5.0 Customer Rating</span>
+            <span>•</span>
+            <span>Trusted in Malleshwaram, Bengaluru</span>
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-[54px] font-serif-display font-bold text-[#17201E] leading-[1.12]">
+            Disciplined Savings.<br />
+            <span class="text-[#0F3D34]">Accessible Capital</span> When Life Calls.
+          </h1>
+
+          <p class="text-base sm:text-lg text-[#4A5754] leading-relaxed max-w-xl">
+            At JP Chit Fund, we combine traditional community trust with transparent monthly auctions, meticulous record-keeping, and personal guidance—helping Bengaluru families and business owners save steadily or access timely funds.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <a href="#schemes" class="px-6 py-3.5 rounded-xl bg-[#0F3D34] hover:bg-[#165246] text-white font-semibold text-sm shadow-sm transition">
+              Explore Chit Plans
+            </a>
+            <a href="#calculator" class="px-6 py-3.5 rounded-xl bg-white hover:bg-[#F3EFE6] text-[#17201E] border border-[#DCD5C7] font-semibold text-sm transition">
+              Calculate Returns &amp; Bids
+            </a>
+          </div>
+
+          <div class="grid grid-cols-3 gap-4 pt-6 border-t border-[#E5DFD3]">
+            <div>
+              <div class="text-2xl font-serif-display font-bold text-[#0F3D34] tabular-nums">5.0 ★</div>
+              <div class="text-xs text-[#4A5754] mt-0.5">130+ Verified Reviews</div>
+            </div>
+            <div>
+              <div class="text-2xl font-serif-display font-bold text-[#0F3D34] tabular-nums">₹1L – ₹25L</div>
+              <div class="text-xs text-[#4A5754] mt-0.5">Flexible Chit Tiers</div>
+            </div>
+            <div>
+              <div class="text-2xl font-serif-display font-bold text-[#0F3D34] tabular-nums">7 Days</div>
+              <div class="text-xs text-[#4A5754] mt-0.5">9:00 AM – 10:00 PM</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <div class="relative rounded-3xl overflow-hidden shadow-xl border border-[#E5DFD3] bg-white">
+            <!-- IMAGE SLOT 1: Replace images/hero-office.jpg with your office or banner photo -->
+            <img src="images/hero-office.jpg" alt="JP Chit Fund advisory office in Malleshwaram, Bengaluru"
+              class="w-full h-auto aspect-[16/10] object-cover" />
+            <div class="p-5 sm:p-6 bg-white flex flex-wrap items-center justify-between gap-4 border-t border-[#F0ECE2]">
+              <div>
+                <div class="text-xs font-semibold uppercase tracking-wider text-[#A87C32]">Visit Our Branch</div>
+                <div class="text-sm font-semibold text-[#17201E] mt-0.5">10/8 C, Pipeline Road, Basappa Garden, Malleshwaram</div>
+              </div>
+              <a href="tel:+919353781216" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#E6F0EC] text-[#0F3D34] font-semibold text-xs hover:bg-[#d5e7e0] transition">
+                Call +91 93537 81216
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Pillars & About Section -->
+    <section id="about" class="py-16 lg:py-20 bg-white border-y border-[#E5DFD3]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-5">
+          <div class="rounded-3xl overflow-hidden border border-[#E5DFD3] shadow-md">
+            <!-- IMAGE SLOT 2: Replace images/about-consultation.jpg with your team or client consultation photo -->
+            <img src="images/about-consultation.jpg" alt="Personal financial consultation at JP Chit Fund"
+              class="w-full h-auto aspect-[4/3] object-cover" />
+          </div>
+        </div>
+        <div class="lg:col-span-7 space-y-6">
+          <div class="text-xs font-bold uppercase tracking-widest text-[#A87C32]">Why JP Chit Fund</div>
+          <h2 class="text-3xl sm:text-4xl font-serif-display font-bold text-[#17201E]">
+            Clarity, Care, and Transparent Operations at Every Step
+          </h2>
+          <p class="text-[#4A5754] leading-relaxed">
+            Whether you are building a disciplined monthly savings habit or raising lump-sum capital for a family wedding, home renovation, education, or business inventory, our team walks you through every auction, dividend calculation, and payout schedule with complete transparency.
+          </p>
+
+          <div class="grid sm:grid-cols-2 gap-4 pt-2">
+            <div class="p-4 rounded-2xl bg-[#FAF8F4] border border-[#E5DFD3]">
+              <div class="font-bold text-[#0F3D34] mb-1">Dual Save &amp; Borrow Advantage</div>
+              <p class="text-xs text-[#4A5754] leading-relaxed">Earn higher effective dividends than traditional recurring deposits as a saver, or borrow at lower effective cost than personal loans.</p>
+            </div>
+            <div class="p-4 rounded-2xl bg-[#FAF8F4] border border-[#E5DFD3]">
+              <div class="font-bold text-[#0F3D34] mb-1">Meticulous Documentation</div>
+              <p class="text-xs text-[#4A5754] leading-relaxed">Clear monthly receipts, upfront auction terms, and dedicated support 7 days a week from 9:00 AM to 10:00 PM.</p>
+            </div>
+          </div>
+
+          <blockquote class="p-5 rounded-2xl bg-[#E6F0EC]/60 border-l-4 border-[#0F3D34]">
+            <p class="text-sm text-[#17201E] italic leading-relaxed">
+              "JP Chit Fund stands out as an exceptional financial institution, renowned for its meticulous attention to detail. Their customer service is unparalleled, guiding clients through every step of the process with clarity and care. The transparency in their operations builds trust, ensuring peace of mind for investors."
+            </p>
+            <footer class="text-xs font-semibold text-[#0F3D34] mt-2">— Harsha, Verified Customer Review (5.0 ★)</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chit Schemes Explorer -->
+    <section id="schemes" class="py-16 lg:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+          <div>
+            <div class="text-xs font-bold uppercase tracking-widest text-[#A87C32] mb-2">Chit Plans</div>
+            <h2 class="text-3xl sm:text-4xl font-serif-display font-bold text-[#17201E]">
+              Illustrative Chit Schemes for Every Goal
+            </h2>
+            <p class="text-sm text-[#4A5754] mt-2 max-w-2xl">
+              Filter plans by duration below. Actual open batch dates and group availability are confirmed directly at our Malleshwaram office.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <button type="button" data-scheme-filter="all" class="px-4 py-2 rounded-full text-sm font-semibold bg-[#0F3D34] text-white transition cursor-pointer">All Plans</button>
+            <button type="button" data-scheme-filter="short" class="px-4 py-2 rounded-full text-sm font-semibold bg-white text-[#4A5754] border border-[#E5DFD3] hover:border-[#0F3D34] transition cursor-pointer">20 Months</button>
+            <button type="button" data-scheme-filter="medium" class="px-4 py-2 rounded-full text-sm font-semibold bg-white text-[#4A5754] border border-[#E5DFD3] hover:border-[#0F3D34] transition cursor-pointer">25–30 Months</button>
+            <button type="button" data-scheme-filter="long" class="px-4 py-2 rounded-full text-sm font-semibold bg-white text-[#4A5754] border border-[#E5DFD3] hover:border-[#0F3D34] transition cursor-pointer">40–50 Months</button>
+          </div>
+        </div>
+
+        <div id="schemes-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+      </div>
+    </section>
+
+    <!-- Interactive Chit Calculator -->
+    <section id="calculator" class="py-16 lg:py-24 bg-white border-y border-[#E5DFD3]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mb-10">
+          <div class="text-xs font-bold uppercase tracking-widest text-[#A87C32] mb-2">Interactive Estimator</div>
+          <h2 class="text-3xl sm:text-4xl font-serif-display font-bold text-[#17201E]">
+            Chit Dividend &amp; Auction Calculator
+          </h2>
+          <p class="text-sm text-[#4A5754] mt-2">
+            Estimate your monthly dividend share, net effective installment, and prize payout based on standard 5% foreman commission.
+          </p>
+        </div>
+
+        <div class="grid lg:grid-cols-12 gap-8 items-start">
+          <!-- Controls -->
+          <div class="lg:col-span-5 bg-[#FAF8F4] rounded-3xl border border-[#E5DFD3] p-6 sm:p-8 space-y-6">
+            <div>
+              <label for="calc-amount" class="block text-sm font-semibold text-[#17201E] mb-2">Chit Value</label>
+              <select id="calc-amount" class="w-full rounded-xl border border-[#DCD5C7] bg-white px-4 py-3 text-sm font-semibold text-[#17201E] focus:outline-none focus:border-[#0F3D34]">
+                <option value="100000">₹1,00,000 (1 Lakh)</option>
+                <option value="200000">₹2,00,000 (2 Lakhs)</option>
+                <option value="300000">₹3,00,000 (3 Lakhs)</option>
+                <option value="500000" selected>₹5,00,000 (5 Lakhs)</option>
+                <option value="1000000">₹10,00,000 (10 Lakhs)</option>
+                <option value="2500000">₹25,00,000 (25 Lakhs)</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="calc-months" class="block text-sm font-semibold text-[#17201E] mb-2">Duration (Members)</label>
+              <select id="calc-months" class="w-full rounded-xl border border-[#DCD5C7] bg-white px-4 py-3 text-sm font-semibold text-[#17201E] focus:outline-none focus:border-[#0F3D34]">
+                <option value="20">20 Months</option>
+                <option value="25">25 Months</option>
+                <option value="30">30 Months</option>
+                <option value="40" selected>40 Months</option>
+                <option value="50">50 Months</option>
+              </select>
+            </div>
+
+            <div>
+              <div class="flex justify-between items-center mb-2">
+                <label for="calc-discount" class="text-sm font-semibold text-[#17201E]">Auction Bid Discount</label>
+                <span id="calc-discount-label" class="px-2.5 py-0.5 rounded-lg bg-[#0F3D34] text-white text-xs font-bold tabular-nums">20%</span>
+              </div>
+              <input id="calc-discount" type="range" min="5" max="35" step="1" value="20" class="chit-slider w-full" />
+              <div class="flex justify-between text-[11px] text-[#4A5754] mt-1.5">
+                <span>5% (Late Month)</span>
+                <span>20% (Mid)</span>
+                <span>35% (Early Bid)</span>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-3 pt-2">
+              <div class="p-4 rounded-2xl bg-white border border-[#E5DFD3]">
+                <div class="text-xs text-[#4A5754]">Gross Installment</div>
+                <div id="out-gross" class="text-lg font-bold text-[#17201E] tabular-nums mt-1">₹12,500</div>
+              </div>
+              <div class="p-4 rounded-2xl bg-white border border-[#E5DFD3]">
+                <div class="text-xs text-[#4A5754]">Monthly Dividend</div>
+                <div id="out-dividend" class="text-lg font-bold text-[#0F3D34] tabular-nums mt-1">₹1,875</div>
+              </div>
+              <div class="p-4 rounded-2xl bg-[#E6F0EC] border border-[#C6DDD4]">
+                <div class="text-xs text-[#0F3D34] font-medium">Net Monthly Payable</div>
+                <div id="out-net" class="text-xl font-bold text-[#0F3D34] tabular-nums mt-1">₹10,625</div>
+              </div>
+              <div class="p-4 rounded-2xl bg-[#F8F0E0] border border-[#E7D4AE]">
+                <div class="text-xs text-[#A87C32] font-medium">Prize Payout on Bid</div>
+                <div id="out-prize" class="text-xl font-bold text-[#17201E] tabular-nums mt-1">₹4,00,000</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chart -->
+          <div class="lg:col-span-7 bg-[#FAF8F4] rounded-3xl border border-[#E5DFD3] p-6 sm:p-8">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+              <h3 class="font-bold text-[#17201E]">Prize Payout vs. Net Monthly Payable Across Auction Stages</h3>
+              <span class="text-xs text-[#4A5754]">5% Foreman Commission Included</span>
+            </div>
+            <div class="relative h-72 sm:h-80">
+              <canvas id="chit-chart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works + Life Goals -->
+    <section id="how-it-works" class="py-16 lg:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-7 space-y-6">
+          <div>
+            <div class="text-xs font-bold uppercase tracking-widest text-[#A87C32] mb-2">Simple 4-Step Process</div>
+            <h2 class="text-3xl sm:text-4xl font-serif-display font-bold text-[#17201E]">
+              How a Chit Fund Works at JP Chit Fund
+            </h2>
+          </div>
+
+          <div id="steps-nav" class="grid sm:grid-cols-2 gap-3"></div>
+          <div id="step-detail-box" class="bg-white rounded-3xl border border-[#E5DFD3] p-6 sm:p-8 shadow-sm"></div>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="rounded-3xl overflow-hidden border border-[#E5DFD3] bg-white shadow-lg">
+            <!-- IMAGE SLOT 3: Replace images/goals-home.jpg with your community or milestone photo -->
+            <img src="images/goals-home.jpg" alt="Building long-term family wealth and milestones in Bengaluru"
+              class="w-full h-auto aspect-[4/3] object-cover" />
+            <div class="p-6">
+              <div class="text-xs font-bold uppercase tracking-wider text-[#A87C32] mb-1">Built for Real Milestones</div>
+              <h3 class="font-serif-display font-bold text-xl text-[#17201E] mb-2">Home, Business, Education &amp; Weddings</h3>
+              <p class="text-sm text-[#4A5754] leading-relaxed">
+                Unlike rigid loans, you do not need to justify how you use your prized chit amount—giving families and entrepreneurs complete freedom.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 lg:py-20 bg-white border-y border-[#E5DFD3]">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-10">
+          <div class="text-xs font-bold uppercase tracking-widest text-[#A87C32] mb-2">Common Questions</div>
+          <h2 class="text-3xl sm:text-4xl font-serif-display font-bold text-[#17201E]">Frequently Asked Questions</h2>
+        </div>
+        <div id="faq-list" class="space-y-3"></div>
+      </div>
+    </section>
+
+    <!-- Contact & Enquiry Section -->
+    <section id="contact" class="py-16 lg:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-10">
+        <div class="lg:col-span-5 space-y-6">
+          <div class="text-xs font-bold uppercase tracking-widest text-[#A87C32]">Get In Touch</div>
+          <h2 class="text-3xl sm:text-4xl font-serif-display font-bold text-[#17201E]">
+            Visit Our Malleshwaram Branch or Request a Callback
+          </h2>
+          <p class="text-sm text-[#4A5754] leading-relaxed">
+            Speak directly with our team to check upcoming chit group start dates, auction schedules, and enrollment requirements.
+          </p>
+
+          <div class="space-y-4 pt-2">
+            <div class="p-5 rounded-2xl bg-white border border-[#E5DFD3]">
+              <div class="text-xs font-semibold uppercase tracking-wider text-[#A87C32]">Office Address</div>
+              <div class="font-semibold text-[#17201E] mt-1">10/8 C, Pipeline Road, Basappa Garden, Malleshwaram, Bengaluru, Karnataka 560003</div>
+            </div>
+            <div class="p-5 rounded-2xl bg-white border border-[#E5DFD3] flex items-center justify-between gap-4">
+              <div>
+                <div class="text-xs font-semibold uppercase tracking-wider text-[#A87C32]">Phone</div>
+                <a href="tel:+919353781216" class="text-lg font-bold text-[#0F3D34] hover:underline mt-0.5 block">+91 93537 81216</a>
+              </div>
+              <a href="tel:+919353781216" class="px-4 py-2 rounded-xl bg-[#0F3D34] text-white text-xs font-semibold">Call Now</a>
+            </div>
+            <div class="p-5 rounded-2xl bg-white border border-[#E5DFD3]">
+              <div class="text-xs font-semibold uppercase tracking-wider text-[#A87C32]">Business Hours</div>
+              <div class="font-semibold text-[#17201E] mt-1">Monday – Sunday: 9:00 AM – 10:00 PM</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7">
+          <form id="enquiry-form" class="bg-white rounded-3xl border border-[#E5DFD3] p-6 sm:p-10 shadow-sm space-y-5">
+            <h3 class="text-2xl font-serif-display font-bold text-[#17201E]">Request Chit Plan Details</h3>
+
+            <div id="form-success-banner" class="hidden p-4 rounded-2xl bg-[#E6F0EC] border border-[#C6DDD4] text-sm"></div>
+
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label for="enquiry-name" class="block text-xs font-semibold uppercase tracking-wider text-[#4A5754] mb-1.5">Full Name</label>
+                <input id="enquiry-name" type="text" required placeholder="Your name"
+                  class="w-full rounded-xl border border-[#DCD5C7] px-4 py-3 text-sm focus:outline-none focus:border-[#0F3D34]" />
+              </div>
+              <div>
+                <label for="enquiry-phone" class="block text-xs font-semibold uppercase tracking-wider text-[#4A5754] mb-1.5">Phone Number</label>
+                <input id="enquiry-phone" type="tel" required placeholder="+91 98XXX XXXXX"
+                  class="w-full rounded-xl border border-[#DCD5C7] px-4 py-3 text-sm focus:outline-none focus:border-[#0F3D34]" />
+              </div>
+            </div>
+
+            <div>
+              <label for="enquiry-plan" class="block text-xs font-semibold uppercase tracking-wider text-[#4A5754] mb-1.5">Preferred Chit Value</label>
+              <select id="enquiry-plan" class="w-full rounded-xl border border-[#DCD5C7] bg-white px-4 py-3 text-sm focus:outline-none focus:border-[#0F3D34]">
+                <option value="₹1,00,000 (20 Months)">₹1,00,000 (20 Months)</option>
+                <option value="₹2,00,000 (25 Months)">₹2,00,000 (25 Months)</option>
+                <option value="₹3,00,000 (30 Months)">₹3,00,000 (30 Months)</option>
+                <option value="₹5,00,000 (40 Months)" selected>₹5,00,000 (40 Months)</option>
+                <option value="₹10,00,000 (40 Months)">₹10,00,000 (40 Months)</option>
+                <option value="₹25,00,000 (50 Months)">₹25,00,000 (50 Months)</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="enquiry-message" class="block text-xs font-semibold uppercase tracking-wider text-[#4A5754] mb-1.5">Message / Preferred Callback Time</label>
+              <textarea id="enquiry-message" rows="3" placeholder="Tell us your preferred monthly budget or callback time..."
+                class="w-full rounded-xl border border-[#DCD5C7] px-4 py-3 text-sm focus:outline-none focus:border-[#0F3D34]"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-3.5 px-6 rounded-xl bg-[#0F3D34] hover:bg-[#165246] text-white font-semibold text-sm transition cursor-pointer">
+              Request Callback
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#092620] text-[#E6F0EC] py-10 px-4">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+      <div>
+        <div class="font-serif-display font-bold text-xl text-white">JP Chit Fund</div>
+        <div class="text-xs text-[#B5CCC4] mt-1">10/8 C, Pipeline Road, Basappa Garden, Malleshwaram, Bengaluru, Karnataka 560003</div>
+      </div>
+      <div class="text-xs text-[#B5CCC4] space-y-1 sm:text-right">
+        <div>Phone: <a href="tel:+919353781216" class="text-white font-semibold hover:underline">+91 93537 81216</a></div>
+        <div>Open Daily: 9:00 AM – 10:00 PM</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast-notification"
+    class="fixed bottom-5 right-5 z-50 max-w-sm px-4 py-3 rounded-xl bg-[#092620] text-white text-sm font-medium shadow-xl border border-[#C69749] opacity-0 translate-y-3 pointer-events-none transition-all duration-300">
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
